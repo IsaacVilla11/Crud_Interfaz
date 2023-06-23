@@ -20,6 +20,7 @@ public class Principal extends javax.swing.JFrame {
     public Principal() {
         initComponents();
         InitContent();
+        this.setLocationRelativeTo(null);
     }
      private void InitContent() {
         ShowJPanel(new Inicio());
